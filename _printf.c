@@ -30,11 +30,11 @@ len += m[j].f(args);
 i = i + 2;
 goto Here;
 }
-J--;
+j--;
 }
 _putchar(format[i]);
-Len++;
-I++;
+len++;
+i++;
 }
 va_end(args);
 return (len);
