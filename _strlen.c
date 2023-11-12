@@ -3,6 +3,11 @@
 
 int _strlen(const char *str) 
 {
+	if (str == NULL)
+	{
+		return (0);
+	}
+
     int length = 0; /*Initialize the length to 0*/
 
     /*Iterate through the string until the null terminator is encountered*/
