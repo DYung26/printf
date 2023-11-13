@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stddef.h>
 
-int _strlen(const char *str) 
+int _strlen(const char *format) 
 {
 	if (str == NULL)
 	{
