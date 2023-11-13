@@ -5,5 +5,5 @@ git add ${file_name}
 echo "Enter Your Commit Message:"
 read commit_msg
 git commit -m "${commit_msg}"
-echo -e "\n***Message Read Sucessfully***"
+echo -e "\n***Message Read Sucessfully***\n"
 git push
