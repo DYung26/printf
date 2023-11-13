@@ -45,7 +45,7 @@ typedef struct fmt fmt_t;
 int printf_str1(va_list val);
 int _putchar(char c);
 int _printf(const char *format, ...);
-va_list list, char buffer[], int flags, int width, int precision, int size;
+va_list list, (char buffer[], int flags, int width, int precision, int size);
 
 /****************** FUNCTIONS ******************/
 
