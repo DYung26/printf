@@ -97,7 +97,7 @@ int print_percent(va_list types, char buffer[],
 	return (write(1, "%%", 1));
 }
 
-/************************* PRINT INT *************************/
+/*********************** PRINT INT *************************/
 /**
  * print_int - Print int
  * @types: Lista of arguments
