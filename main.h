@@ -31,6 +31,8 @@ int _strlen(const char *str);
 int printf_s(va_list val);
 int printf_char(va_list val);
 
+#endif
+
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
 
